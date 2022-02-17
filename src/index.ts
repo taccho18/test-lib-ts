@@ -8,6 +8,10 @@ class Person {
     public call(): string {
         return this.name;
     }
+
+    public testPerson(): string {
+      return "test";
+    }
   }
   
 export { Person };
