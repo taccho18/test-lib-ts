@@ -11,5 +11,5 @@ class Person {
         return "test";
     }
 }
-exports.Person = Person;
+module.exports = Person;
 //# sourceMappingURL=index.js.map
