@@ -1,15 +1,26 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class Person {
-    constructor(name) {
-        this.name = name;
+(function (factory) {
+    if (typeof module === "object" && typeof module.exports === "object") {
+        var v = factory(require, exports);
+        if (v !== undefined) module.exports = v;
     }
-    call() {
-        return this.name;
+    else if (typeof define === "function" && define.amd) {
+        define(["require", "exports"], factory);
     }
-    testPerson() {
-        return "test";
+})(function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Person = void 0;
+    class Person {
+        constructor(name) {
+            this.name = name;
+        }
+        call() {
+            return this.name;
+        }
+        testPerson() {
+            return "test";
+        }
     }
-}
-module.exports = Person;
+    exports.Person = Person;
+});
 //# sourceMappingURL=index.js.map
