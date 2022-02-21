@@ -9,6 +9,10 @@
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
+<<<<<<< HEAD
+=======
+    exports.Person = void 0;
+>>>>>>> origin/master
     class Person {
         constructor(name) {
             this.name = name;
@@ -22,4 +26,8 @@
     }
     exports.Person = Person;
 });
+<<<<<<< HEAD
 //# sourceMappingURL=index.js.map
+=======
+//# sourceMappingURL=index.js.map
+>>>>>>> origin/master
